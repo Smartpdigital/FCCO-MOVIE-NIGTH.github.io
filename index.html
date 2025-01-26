@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE NIGHT</title>
+    <style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      
+    }
+    .body{
+    background-image: url(image/slider-bg.jpg);}
+    .container{
+   
+        height: 100vh;
+        color:white;
+        font-size: larger;
+
+
+    }
+    .label{
+        margin-top: 80px;
+    }
+  datalist{
+    background-color: white;
+    color: blue;
+    width: 30px;
+  }
+.text{
+    padding-left: 150px;
+    padding-top: 150px;
+ }
+
+ @media screen and (max-width:882px){
+    .container{
+        font-size: 10px;
+
+    }
+    .text{
+        padding-top: 80px;
+        padding-left:5px;
+        padding-bottom: 10px;
+    }
+    
+ }
+    </style>
+</head>
+<body>
+<div class="body">
+    <div class="container">
+        <h1 style="text-align: center;">MOVIE NIGHT</h1>
+          <div class="text">   <h1> WELCOME TO FEDERAL CO-OPERATIVE  OJI-RIVER</h1>
+        
+    </div>
+      <fieldset>
+        <legend>GUEST LIST </legend>
+<div class="label">
+        <label for="name" class="names"></label>
+        <input list="names" name="name" id="name">
+        <datalist id="names">
+            <option value="john"></option>
+            <option value="matteweh"></option>
+            <option value="luke"></option>
+            <option value="john"></option>
+        </datalist>
+
+    </div> 
+    
+</fieldset>
+    </div>
+</div>
+    
+</body>
+</html>
