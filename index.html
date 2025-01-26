@@ -33,6 +33,9 @@
     padding-left: 150px;
     padding-top: 150px;
  }
+.select{
+    display: none;
+}
 
  @media screen and (max-width:882px){
     .container{
@@ -44,8 +47,14 @@
         padding-left:5px;
         padding-bottom: 10px;
     }
+
+     .select{
+         display:block;
     
  }
+     .label{
+         display:none;
+     }
     </style>
 </head>
 <body>
@@ -89,6 +98,16 @@
     
 </fieldset>
     </div>
+    <label for="what-is-your-name">Check your name</label>
+<div  class="select">
+<select id="what-is-your-name">
+  <option value="chioma">chioma</option>
+  <option value="sarah">Sarah</option>
+  <option value="joy">joy</option>
+  <option value="mayor">mayor</option>
+</select>
+</div>
+    
 </div>
     
 </body>
